@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v3.0<br/>
-  <a href="https://chirag-beta.vercel.app/" target="_blank">Chirag Portfolio</a>
+  <a href="https://chirag-ten.vercel.app/" target="_blank">Chirag Portfolio</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/redmi.png" />
@@ -23,13 +23,13 @@
     <a href="https://github.com/84Chirag/MyPortfolio/issues">Request Feature</a>
 </h3>
 
-## TL;DR
+## FORK
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [84Chirag](https://github.com/84Chirag/MyPortfolio). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="https://chirag-beta.vercel.app/" target="_blank">Chirag</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://chirag-ten.vercel.app/" target="_blank">Chirag</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
