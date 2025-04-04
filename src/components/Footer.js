@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaArrowUp } from "react-icons/fa";
-
+import { FaArrowUp, FaLinkedinIn } from "react-icons/fa";
+import AdSense from "./AdSense";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
 
 function Footer() {
   let date = new Date();
@@ -31,6 +36,16 @@ function Footer() {
 
   return (
     <Container fluid className="footer">
+      <Row>
+        <Col md={12}>
+          <AdSense adSlot="2872545073" />
+        </Col>
+      </Row>
+      <Row>
+        <Col md="12" className="footer-copywright">
+          <h3>Designed and Developed by Chirag Gour</h3>
+        </Col>
+      </Row>
       <Row>
         <Col md="12" className="footer-copywright">
           <h3>Copyright © {year} CG</h3>

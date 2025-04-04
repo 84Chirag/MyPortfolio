@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import AdSense from "../AdSense";
 import shop from "../../Assets/Projects/shop.png";
 import hotnews from "../../Assets/Projects/hotnews.png";
 import sphere from "../../Assets/Projects/threejs.png";
@@ -22,6 +23,11 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <Row>
+          <Col md={12}>
+            <AdSense adSlot="7495086870" />
+          </Col>
+        </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

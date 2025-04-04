@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
+import AdSense from "../AdSense";
 import pdf from "../../Assets/../Assets/Chirag_Gour_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -41,6 +42,12 @@ function ResumeNew() {
             <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row> */}
+
+        <Row style={{ justifyContent: "center", position: "relative", marginTop: "20px" }}>
+          <Col md={12}>
+            <AdSense adSlot="3831237678" />
+          </Col>
+        </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
