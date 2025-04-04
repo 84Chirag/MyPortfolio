@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Chirag Vijay gour                                                                                                                                                                                                                               </span>
+            Hi Everyone, I am <span className="purple">Chirag Vijay Gour                                                                                                                                </span>
             from <span className="purple"> Maharashtra, India.</span>
             <br />
-            I am currently a Freelancer at Mumbai.
+            I am currently in Xovient as Software Developer at Navi Mumbai.
             <br />
             I have completed Graduation From Gurukul College of Commerce (Ghatkopar) in B.com (IT) and Worked As a Web Developer Intern in Alive Inc. 
             <br />
